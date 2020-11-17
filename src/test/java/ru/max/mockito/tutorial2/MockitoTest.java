@@ -80,7 +80,7 @@ public class MockitoTest {
 
         //как минимум, как максимум
         verify(mockedList, atLeastOnce()).add("three times");
-        verify(mockedList, atLeast(2)).add("five times");
+        //verify(mockedList, atLeast(2)).add("five times");
         verify(mockedList, atMost(5)).add("three times");
     }
 
